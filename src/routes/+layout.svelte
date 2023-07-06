@@ -41,4 +41,10 @@
 			padding-inline: 0;
 		}
 	}
+
+	@media (max-width: 390px) {
+		main {
+			padding-block: var(--size-1);
+		}
+	}
 </style>
