@@ -11,17 +11,18 @@
             <h1>Creede Guitars</h1>
             <p>{config.oneliner}</p>
             <br>
-            <img src="guitar9.jpeg" alt="Creede Guitar" width="95%">
+            <img src="guitar9.jpeg" alt="Creede Guitar" width="90%">
         </div>
     </div>
     <div class="column columnhide">
         <div class="row">
             <div class="column center">
-                <img src="headstock.jpg" alt="Creede Guitar" width="60%%">
-             </div>
-            <div class="column center">
-                <img src="guitar5.jpeg" alt="" width="100%">
+                <img src="guitar5.jpeg" alt="Creede Guitar" width="100%">
             </div>
+            <div class="column center">
+                <img src="headstock.jpg" alt="Creede Guitar" width="63%">
+             </div>
+          
         </div>
     </div>
   </div>

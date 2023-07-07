@@ -1,10 +1,17 @@
 <script>
 	import * as config from '$lib/config'
+    import { Instagram, Mail } from 'lucide-svelte';
 </script>
 
 <!-- Footer -->
 <footer class="row">
 	<p class="column">{config.title} &copy {new Date().getFullYear()}</p>
+        <a href="https://www.instagram.com/creedeguitars" class="notpink">
+            <Instagram />
+        </a>
+        <a href="mailto:creedeguitars@gmail.com">
+            <Mail />
+        </a>
 	<p class="column right">Website design:<a href="https://chasethomasmartin.com"> CM Dev</a></p>
 </footer>
 
@@ -32,5 +39,9 @@
         display: flex;
         justify-content: flex-end;
         align-items: center; 
+    }
+
+    .notpink {
+        color: var(--violet-5);
     }
 </style>
