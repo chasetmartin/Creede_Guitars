@@ -14,7 +14,7 @@
         <img src="guitar2.jpeg" alt="Creede Guitar" width="95%">
         </div>
     </div>
-    <div class="column columnhide">
+    <div class="column">
         <img src="guitar6.jpeg" alt="Creede Guitar" width="77%">
     </div>
   </div>
@@ -22,15 +22,18 @@
   <style>
     .row {
   display: flex;
+  flex-wrap: wrap; /* Allow columns to wrap onto new line */
 }
 
 .column {
   flex: 50%;
+  padding: 5px; /* Add some spacing between columns */
+  box-sizing: border-box; /* Include padding in column width */
 }
 
 @media (max-width: 1000px) {
-		.columnhide {
-            display: inline;
+        .column {
+            flex: 100%; /* Make columns take full width on small screens */
         }
-	}
+    }
   </style>

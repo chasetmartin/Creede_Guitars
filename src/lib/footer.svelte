@@ -6,13 +6,13 @@
 <!-- Footer -->
 <footer class="row">
 	<p class="column">{config.title} &copy {new Date().getFullYear()}</p>
-        <a href="https://www.instagram.com/creedeguitars" class="notpink">
+        <a href="https://www.instagram.com/creedeguitars" class="notpink hidephone">
             <Instagram />
         </a>
-        <a href="mailto:creedeguitars@gmail.com">
+        <a href="mailto:creedeguitars@gmail.com" class="hidephone">
             <Mail />
         </a>
-	<p class="column right">Website design:<a href="https://chasethomasmartin.com"> CM Dev</a></p>
+	<p class="column right">Website design:<a href="https://chasethomasmartin.com" target="_blank"> CM Dev</a></p>
 </footer>
 
 <style>
@@ -43,5 +43,11 @@
 
     .notpink {
         color: var(--violet-5);
+    }
+
+    @media (max-width: 420px) {
+        .hidephone {
+            display: none;
+        }
     }
 </style>
