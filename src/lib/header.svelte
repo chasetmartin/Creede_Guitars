@@ -12,7 +12,7 @@
 	<ul class="links">
         <li>
             <a href="/" class="title">
-                <b>{config.title}</b>
+                {config.title}
             </a>
         </li>
 		<li>
@@ -33,10 +33,15 @@
 	}
     .title {
         padding-right: 3em;
+		font-size: larger;
     }
 
 	.links {
 		margin-block: var(--size-7);
+	}
+
+	li {
+		padding: 2px;
 	}
 
 	a {
@@ -44,7 +49,7 @@
 		text-decoration: none;
 	}
 
-	@media (min-width: 390px) {
+	@media (min-width: 420px) {
 		nav {
 			display: flex;
 			justify-content: space-between;

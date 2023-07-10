@@ -1,9 +1,11 @@
 @import '@fontsource/manrope';
+@import url('https://fonts.cdnfonts.com/css/ananda-black-personal-use');
 
 html {
 	/* font */
 	--font-sans: 'Manrope', sans-serif;
 	--font-mono: 'Manrope', sans-serif;
+	--font-title: 'Ananda Black Personal Use', sans-serif;
 
 	/* dark */
 	--brand-dark: var(--orange-3);
@@ -110,6 +112,10 @@ ol {
 
 li {
 	padding-inline-start: 0;
+}
+
+h1 {
+	font-family: var(--font-title);
 }
 
 .surface-1 {

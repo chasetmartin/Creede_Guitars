@@ -42,7 +42,7 @@
 		}
 	}
 
-	@media (max-width: 390px) {
+	@media (max-width: 420px) {
 		main {
 			padding-block: var(--size-1);
 		}
