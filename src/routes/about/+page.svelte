@@ -1,7 +1,14 @@
 <script>
     import * as config from '$lib/config'
     import { fade } from 'svelte/transition'
+	import Seo from '../../lib/seo.svelte';
 </script>
+
+<Seo 
+    type="WebPage"
+    title="About | Creede Guitars"
+    description="About Creede Guitars: what makes Creede Guitars unique?"
+/>
 
 <div in:fade={{duration:1000}} class="row">
     <div class="column">

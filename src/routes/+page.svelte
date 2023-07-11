@@ -1,9 +1,15 @@
 <script>
     import * as config from '$lib/config'
     import { fade } from 'svelte/transition'
+	import Seo from '../lib/seo.svelte';
 </script>
 
-
+<Seo 
+    type="WebSite"
+    title="Creede Guitars"
+    description="Building custom steel string acoustic guitars at 9,000 feet in the San Juan Mountains of Colorado"
+    canonical="https://creedeguitars.com"
+/>
 
 <div in:fade={{duration:1000}} class="row">
     <div class="column">
