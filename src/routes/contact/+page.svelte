@@ -2,7 +2,14 @@
     import * as config from '$lib/config'
     import { fade } from 'svelte/transition'
     import { Instagram, Mail, MousePointerClick } from 'lucide-svelte'
+	import Seo from '../../lib/seo.svelte';
 </script>
+
+<Seo 
+    type="WebPage"
+    title="Contact | Creede Guitars"
+    description="Contact Creede Guitars: interested in learning more?"
+/>
 
 <div in:fade={{duration:1000}} class="row">
     <div class="column">
