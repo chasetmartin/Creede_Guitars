@@ -18,11 +18,11 @@
         <br>
         <p>{config.philosophy}</p>
         <br>
-        <img src="guitar2.jpeg" alt="Creede Guitar" width="95%">
+        <img in:fade={{duration:1000, delay:350}} src="guitar2.jpeg" alt="Creede Guitar" width="95%">
         </div>
     </div>
     <div class="column">
-        <img src="guitar6.jpeg" alt="Creede Guitar" width="77%">
+        <img in:fade={{duration:1000, delay:350}} src="guitar6.jpeg" alt="Creede Guitar" width="77%">
     </div>
   </div>
 
