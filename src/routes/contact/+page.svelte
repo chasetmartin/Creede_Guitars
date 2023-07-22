@@ -11,8 +11,8 @@
     description="Contact Creede Guitars: interested in learning more?"
 />
 
-<div in:fade={{duration:1000}} class="row">
-    <div class="column">
+<div class="row">
+    <div in:fade={{duration:1000}} class="column">
         <h1>Get in touch</h1>
         <p>Interested in learning more?</p>
         <br>
@@ -27,10 +27,10 @@
         </a>
     </div>
     <div class="column columnhide">
-        <img src="guitar10.jpg" alt="Creede Guitar" width="95%">
+        <img in:fade={{duration:1000, delay:350}} src="guitar10.jpg" alt="Creede Guitar" width="95%">
     </div>
     <div class="column columnhide">
-        <img src="guitar3.jpeg" alt="Creede Guitar" width="95%">
+        <img in:fade={{duration:1000, delay:350}} src="guitar3.jpeg" alt="Creede Guitar" width="95%">
     </div>
 </div>
 
