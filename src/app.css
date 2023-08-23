@@ -124,6 +124,10 @@ h1 {
 	font-family: var(--font-title);
 }
 
+h3 {
+	font-family: var(--font-title);
+}
+
 .surface-1 {
 	background-color: var(--surface-1);
 	color: var(--text-2);

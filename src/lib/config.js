@@ -6,3 +6,4 @@ export const about = "I'm a solo luthier working in Creede, Colorado. I handcraf
 export const philosophy = "What makes Creede Guitars unique? Inside the guitar, extraordinary effort goes into building with the goal of minimizing typical adverse humidity impacts here in Colorado, and in other not-so-wet locations. The outside of each guitar receives a unique  oil and wax finish providing a natural appearance while enhancing the clear rich resonance, sustain, and  projection of overtones sought after in a boutique instrument."
 export const url = dev ? 'http://localhost:5173/' : 'https://creedeguitars.com'
 export const keywords = "Creede Guitars, Creede, Colorado, Guitar, Acoustic, Luthier, Handmade, Steel String"
+export const guitars = "Click on a guitar to learn more about it."

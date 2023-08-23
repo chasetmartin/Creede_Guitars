@@ -47,4 +47,5 @@
 			padding-block: var(--size-1);
 		}
 	}
+
 </style>

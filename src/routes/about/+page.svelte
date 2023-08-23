@@ -1,6 +1,6 @@
 <script>
-    import * as config from '$lib/config'
-    import { fade } from 'svelte/transition'
+  import * as config from '$lib/config'
+  import { fade } from 'svelte/transition'
 	import Seo from '../../lib/seo.svelte';
 </script>
 
