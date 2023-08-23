@@ -1,7 +1,7 @@
 <script>
     import * as config from '$lib/config'
     import { fade } from 'svelte/transition'
-    import { Instagram, Mail, MousePointerClick } from 'lucide-svelte'
+    import { Instagram, Mail, MousePointerClick, Youtube } from 'lucide-svelte'
 	import Seo from '../../lib/seo.svelte';
 </script>
 
@@ -20,10 +20,15 @@
         <a href="https://www.instagram.com/creedeguitars" class="notpink">
             <Instagram /><MousePointerClick />
         </a>
-        <p>or</p>
         <p>Send us an email</p>
         <a href="mailto:creedeguitars@gmail.com">
             <Mail /><MousePointerClick />
+        </a>
+        <p>or</p>
+        <br>
+        <p>check out our YouTube channel!</p>
+        <a href="https://www.youtube.com/@CreedeGuitars/featured" class="notpink">
+            <Youtube /><MousePointerClick />
         </a>
     </div>
     <div class="column columnhide">

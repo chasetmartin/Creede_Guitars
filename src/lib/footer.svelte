@@ -1,6 +1,6 @@
 <script>
 	import * as config from '$lib/config'
-    import { Instagram, Mail } from 'lucide-svelte';
+    import { Instagram, Mail, Youtube } from 'lucide-svelte';
 </script>
 
 <!-- Footer -->
@@ -11,6 +11,11 @@
         </a>
         <a href="mailto:creedeguitars@gmail.com" class="hidephone">
             <Mail />
+        </a>
+        <a href="https://www.youtube.com/@CreedeGuitars/featured" class="notpink hidephone">
+            <Youtube 
+                size={28}
+            />
         </a>
 	<p class="column right">Website design:<a href="https://chasethomasmartin.com" target="_blank"> CM Dev</a></p>
 </footer>
@@ -25,6 +30,10 @@
 
     p {
         color: var(--text-2);
+    }
+
+    a {
+        padding-left: 1.5vw;
     }
 
     .row {
