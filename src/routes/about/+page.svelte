@@ -18,11 +18,13 @@
         <br>
         <p>{config.philosophy}</p>
         <br>
-        <img in:fade={{duration:1000, delay:350}} src="guitar2.jpeg" alt="Creede Guitar" width="95%">
+        <div class="center">
+          <img in:fade={{duration:1000, delay:350}} src="guitar9.jpeg" alt="Creede Guitar" width="95%">
         </div>
+      </div>
     </div>
-    <div class="column">
-        <img in:fade={{duration:1000, delay:350}} src="guitar6.jpeg" alt="Creede Guitar" width="77%">
+    <div class="column center">
+        <img in:fade={{duration:1000, delay:350}} src="000_1-01.jpg" alt="Creede Guitar" width="76%">
     </div>
   </div>
 
@@ -31,6 +33,11 @@
   display: flex;
   flex-wrap: wrap; /* Allow columns to wrap onto new line */
 }
+.center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 .column {
   flex: 50%;
