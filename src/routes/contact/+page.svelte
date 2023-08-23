@@ -32,10 +32,10 @@
         </a>
     </div>
     <div class="column columnhide">
-        <img in:fade={{duration:1000, delay:350}} src="guitar10.jpg" alt="Creede Guitar" width="95%">
+        <img in:fade={{duration:1000, delay:350}} src="000_1-16.jpg" alt="Creede Guitar" width="50%">
     </div>
     <div class="column columnhide">
-        <img in:fade={{duration:1000, delay:350}} src="guitar3.jpeg" alt="Creede Guitar" width="95%">
+        <img in:fade={{duration:1000, delay:350}} src="headstock.jpg" alt="Creede Guitar" width="56%">
     </div>
 </div>
 

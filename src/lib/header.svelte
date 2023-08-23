@@ -21,6 +21,9 @@
 		<li>
 			<a href="/contact">Contact</a>
 		</li>
+		<li>
+			<a href="/guitars">Guitars</a>
+		</li>
 	</ul>
 
   <!-- Theme -->
