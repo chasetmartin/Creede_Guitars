@@ -14,31 +14,55 @@
 <div in:fade={{duration:1000}} class="row">
     <div class="column center">
         <a href="/guitars/parlor">
-            <h3>Parlor</h3>
+            <h3>The Parlor</h3>
+            <h6 class="lighttext">Parlor</h6>
         </a>
     </div>
     <div class="column center">
         <a href="/guitars/000">
-            <h3>Triple Zero</h3>
+            <h3>The "Doc Martin"</h3>
+            <h6 class="lighttext">Triple Zero</h6>
         </a>
     </div>
+    
 </div>
 <div in:fade={{duration:1000}} class="row">
     <div class="column center">
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-        <img in:fade={{duration:1000, delay:350}} src="guitar5.jpeg" alt="Creede Guitar" width="70%" class="hover" on:click={() => goto('/guitars/parlor')}>
+        <img in:fade={{duration:1000, delay:350}} src="guitar5.jpeg" alt="Creede Guitar Parlor" width="70%" class="hover" on:click={() => goto('/guitars/parlor')}>
     </div>
     <div class="column center">
        
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-        <img in:fade={{duration:1000, delay:350}} src="000_1-03.jpg" alt="Creede Guitar" width="70%" class="hover" on:click={() => goto('/guitars/000')}>
+        <img in:fade={{duration:1000, delay:350}} src="000_1-03.jpg" alt="Creede Guitar 000" width="70%" class="hover" on:click={() => goto('/guitars/000')}>
+    </div>
+</div>
+<br>
+<br>
+<div in:fade={{duration:1000}} class="row">
+<div class="column center">
+        <a href="/guitars/dreadnoughtcutaway">
+            <h3>Bryan's Legacy</h3>
+            <h6 class="lighttext">Dreadnought Cutaway</h6>
+        </a>
+    </div>
+</div>
+<div in:fade={{duration:1000}} class="row">
+    <div class="column center">
+       
+        <!-- svelte-ignore a11y-click-events-have-key-events -->
+        <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+        <img in:fade={{duration:1000, delay:350}} src="dread-14.jpg" alt="Creede Guitar Dreadnought Cutaway" width="40%" class="hover" on:click={() => goto('/guitars/dreadnoughtcutaway')}>
     </div>
 </div>
 
   
 <style>
+    .lighttext {
+        font-style: italic;
+    }
 
     .row {
         display: flex;
