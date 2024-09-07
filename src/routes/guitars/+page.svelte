@@ -48,13 +48,24 @@
             <h6 class="lighttext">Dreadnought Cutaway</h6>
         </a>
     </div>
-</div>
+
+    <div class="column center">
+            <a href="/guitars/om12fret">
+                <h3>The Blacktail Canyon</h3>
+                <h6 class="lighttext">Large Soundhole OM 12 Fret</h6>
+            </a>
+        </div>
+    </div>
 <div in:fade={{duration:1000}} class="row">
     <div class="column center">
-       
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-        <img in:fade={{duration:1000, delay:350}} src="dread-14.jpg" alt="Creede Guitar Dreadnought Cutaway" width="40%" class="hover" on:click={() => goto('/guitars/dreadnoughtcutaway')}>
+        <img in:fade={{duration:1000, delay:350}} src="dread-14.jpg" alt="Creede Guitar Dreadnought Cutaway" width="70%" class="hover" on:click={() => goto('/guitars/dreadnoughtcutaway')}>
+    </div>
+    <div class="column center">
+        <!-- svelte-ignore a11y-click-events-have-key-events -->
+        <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+        <img in:fade={{duration:1000, delay:350}} src="om12-02.jpg" alt="Creede Guitar Dreadnought Cutaway" width="70%" class="hover" on:click={() => goto('/guitars/om12fret')}>
     </div>
 </div>
 
