@@ -53,10 +53,18 @@
   <br>
   <div in:fade={{duration:1000}} class="row">
     <div class="column center">
-      <img in:fade={{duration:1000, delay:350}} src="/om12-07.jpg" alt="Creede Guitar" width="95%">
+      <img in:fade={{duration:1000, delay:350}} src="/om12-10.jpg" alt="Creede Guitar" width="95%">
     </div>
     <div class="column center">
       <img in:fade={{duration:1000, delay:350}} src="/om12-01.jpg" alt="Creede Guitar" width="95%">
+    </div>
+  </div>
+  <div in:fade={{duration:1000}} class="row">
+    <div class="column center">
+      <img in:fade={{duration:1000, delay:350}} src="/om12-07.jpg" alt="Creede Guitar" width="95%">
+    </div>
+    <div class="column center">
+      <img in:fade={{duration:1000, delay:350}} src="/om12-11.jpg" alt="Creede Guitar" width="95%">
     </div>
   </div>
 
