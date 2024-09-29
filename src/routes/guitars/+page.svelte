@@ -83,7 +83,7 @@
     <div class="column center">
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-        <img in:fade={{duration:1000, delay:350}} src="om12-02.jpg" alt="Creede Guitar OM 14 Cutaway" width="35%" class="hover" on:click={() => goto('/guitars/omcutaway14')}>
+        <img in:fade={{duration:1000, delay:350}} src="om14cut-18.jpg" alt="Creede Guitar OM 14 Cutaway" width="35%" class="hover" on:click={() => goto('/guitars/omcutaway14')}>
     </div>
 </div>
 
