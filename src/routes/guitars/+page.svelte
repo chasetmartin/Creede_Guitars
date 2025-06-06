@@ -78,12 +78,23 @@
                 <h6 class="lighttext">OM 14 Fret Cutaway</h6>
             </a>
         </div>
+    <div class="column center">
+            <a href="/guitars/000-NB">
+                <h3>Blue Eyes</h3>
+                <h6 class="lighttext">Norman Blake Inspired 000-12</h6>
+            </a>
     </div>
+</div>
 <div in:fade={{duration:1000}} class="row">
     <div class="column center">
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-        <img in:fade={{duration:1000, delay:350}} src="om14cut-18.jpg" alt="Creede Guitar OM 14 Cutaway" width="35%" class="hover" on:click={() => goto('/guitars/omcutaway14')}>
+        <img in:fade={{duration:1000, delay:350}} src="om14cut-18.jpg" alt="Creede Guitar OM 14 Cutaway" width="70%" class="hover" on:click={() => goto('/guitars/omcutaway14')}>
+    </div>
+    <div class="column center">
+        <!-- svelte-ignore a11y-click-events-have-key-events -->
+        <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+        <img in:fade={{duration:1000, delay:350}} src="blueeyes-01.jpg" alt="Creede Guitar 000 Norman Blake" width="67%" class="hover" on:click={() => goto('/guitars/000-NB')}>  
     </div>
 </div>
 
