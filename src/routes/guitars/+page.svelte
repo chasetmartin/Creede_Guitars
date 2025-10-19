@@ -97,6 +97,28 @@
         <img in:fade={{duration:1000, delay:350}} src="blueeyes-01.jpg" alt="Creede Guitar 000 Norman Blake" width="67%" class="hover" on:click={() => goto('/guitars/000-NB')}>  
     </div>
 </div>
+<br>
+<br>
+<div in:fade={{duration:1000}} class="row">
+    <div class="column center">
+            <a href="/guitars/om12fret">
+                <h3>The Amethyst Vein</h3>
+                <h6 class="lighttext">000-12 Deep Body</h6>
+            </a>
+        </div>
+    <div class="column center">
+    </div>
+</div>
+<div in:fade={{duration:1000}} class="row">
+    <div class="column center">
+        <!-- svelte-ignore a11y-click-events-have-key-events -->
+        <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+        <img in:fade={{duration:1000, delay:350}} src="amethyst-01.jpg" alt="Creede Guitar 000-12 Deep Body" width="70%" class="hover" on:click={() => goto('/guitars/000-DB')}>
+    </div>
+    <div class="column center">
+        <!-- Empty right column to keep left alignment -->
+    </div>
+</div>
 
   
 <style>
