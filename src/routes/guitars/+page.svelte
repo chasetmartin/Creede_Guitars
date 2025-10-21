@@ -101,7 +101,7 @@
 <br>
 <div in:fade={{duration:1000}} class="row">
     <div class="column center">
-            <a href="/guitars/om12fret">
+            <a href="/guitars/000-DB">
                 <h3>The Amethyst Vein</h3>
                 <h6 class="lighttext">000-12 Deep Body</h6>
             </a>
