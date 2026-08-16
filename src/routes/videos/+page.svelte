@@ -2,6 +2,7 @@
 	import * as config from '$lib/config'
 	import { fade } from 'svelte/transition'
 	import { tick } from 'svelte'
+	import { Youtube } from 'lucide-svelte'
 	import Seo from '../../lib/seo.svelte'
 
 	/** @type {import('./$types').PageData} */
@@ -69,7 +70,10 @@
 	</ul>
 
 	<p>
-		<a href={config.youtubeUrl} target="_blank" rel="noopener noreferrer">View on YouTube</a>
+		<a href={config.youtubeUrl} target="_blank" rel="noopener noreferrer" class="youtube-link">
+			<Youtube size={28} />
+			View on YouTube
+		</a>
 	</p>
 </div>
 
@@ -82,7 +86,6 @@
 
 	.player {
 		width: 100%;
-		max-width: 960px;
 		margin-bottom: var(--size-7);
 		scroll-margin-top: var(--size-5);
 	}
@@ -123,7 +126,6 @@
 		grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr));
 		gap: var(--size-5);
 		width: 100%;
-		max-width: 960px;
 		margin-bottom: var(--size-7);
 	}
 
@@ -171,6 +173,13 @@
 
 	a {
 		color: inherit;
+	}
+
+	.youtube-link {
+		display: inline-flex;
+		align-items: center;
+		gap: var(--size-2);
+		color: var(--violet-5);
 	}
 
 	@media (max-width: 1000px) {
