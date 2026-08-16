@@ -7,7 +7,7 @@
       <h1>The Amethyst Vein</h1>
       <h2>000-12 Deep Body</h2>
       <hr class="hrsmall">
-      <h6>She's a tapestry of tone and grain, with an unusual combination of tonewoods—Marbled Redwood top and Curly Cherry back and sides, featuring "Bryan Legacy" Brazilian Rosewood fretboard/bridge. Rich, deep, complex resonane... and named after Creede's founding claim stake!</h6>
+      <h6>She's a tapestry of tone and grain, with an unusual combination of tonewoods—Marbled Redwood top and Curly Cherry back and sides, featuring "Bryan Legacy" Brazilian Rosewood fretboard/bridge. Rich, deep, complex resonance... and named after Creede's founding claim stake!</h6>
       <hr>
     </div>
     <div class="column center">
