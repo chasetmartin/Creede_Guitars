@@ -30,13 +30,13 @@
     <div class="column center">
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-        <img in:fade={{duration:1000, delay:350}} src="guitar5.jpeg" alt="Creede Guitar Parlor" width="70%" class="hover" on:click={() => goto('/guitars/parlor')}>
+        <img in:fade={{duration:1000, delay:350}} src="/guitar5.jpeg" alt="Creede Guitar Parlor" width="70%" class="hover" on:click={() => goto('/guitars/parlor')}>
     </div>
     <div class="column center">
        
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-        <img in:fade={{duration:1000, delay:350}} src="000_1-03.jpg" alt="Creede Guitar 000" width="70%" class="hover" on:click={() => goto('/guitars/000')}>
+        <img in:fade={{duration:1000, delay:350}} src="/000_1-03.jpg" alt="Creede Guitar 000" width="70%" class="hover" on:click={() => goto('/guitars/000')}>
     </div>
 </div>
 <br>
@@ -60,12 +60,12 @@
     <div class="column center">
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-        <img in:fade={{duration:1000, delay:350}} src="dread-14.jpg" alt="Creede Guitar Dreadnought Cutaway" width="70%" class="hover" on:click={() => goto('/guitars/dreadnoughtcutaway')}>
+        <img in:fade={{duration:1000, delay:350}} src="/dread-14.jpg" alt="Creede Guitar Dreadnought Cutaway" width="70%" class="hover" on:click={() => goto('/guitars/dreadnoughtcutaway')}>
     </div>
     <div class="column center">
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-        <img in:fade={{duration:1000, delay:350}} src="om12-02.jpg" alt="Creede Guitar Dreadnought Cutaway" width="70%" class="hover" on:click={() => goto('/guitars/om12fret')}>
+        <img in:fade={{duration:1000, delay:350}} src="/om12-02.jpg" alt="Creede Guitar Dreadnought Cutaway" width="70%" class="hover" on:click={() => goto('/guitars/om12fret')}>
     </div>
 </div>
 <br>
@@ -89,12 +89,12 @@
     <div class="column center">
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-        <img in:fade={{duration:1000, delay:350}} src="om14cut-18.jpg" alt="Creede Guitar OM 14 Cutaway" width="70%" class="hover" on:click={() => goto('/guitars/omcutaway14')}>
+        <img in:fade={{duration:1000, delay:350}} src="/om14cut-18.jpg" alt="Creede Guitar OM 14 Cutaway" width="70%" class="hover" on:click={() => goto('/guitars/omcutaway14')}>
     </div>
     <div class="column center">
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-        <img in:fade={{duration:1000, delay:350}} src="blueeyes-01.jpg" alt="Creede Guitar 000 Norman Blake" width="67%" class="hover" on:click={() => goto('/guitars/000-NB')}>  
+        <img in:fade={{duration:1000, delay:350}} src="/blueeyes-01.jpg" alt="Creede Guitar 000 Norman Blake" width="67%" class="hover" on:click={() => goto('/guitars/000-NB')}>  
     </div>
 </div>
 <br>
@@ -113,7 +113,7 @@
     <div class="column center">
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-        <img in:fade={{duration:1000, delay:350}} src="amethyst-01.jpg" alt="Creede Guitar 000-12 Deep Body" width="70%" class="hover" on:click={() => goto('/guitars/000-DB')}>
+        <img in:fade={{duration:1000, delay:350}} src="/amethyst-01.jpg" alt="Creede Guitar 000-12 Deep Body" width="70%" class="hover" on:click={() => goto('/guitars/000-DB')}>
     </div>
     <div class="column center">
         <!-- Empty right column to keep left alignment -->

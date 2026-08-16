@@ -18,14 +18,14 @@
             <p>{config.oneliner}</p>
             <br>
             <div class="center">
-                <img in:fade={{duration:1000, delay:350}} src="000_1-02.jpg" alt="Creede Guitar" width="90%">
+                <img in:fade={{duration:1000, delay:350}} src="/000_1-02.jpg" alt="Creede Guitar" width="90%">
             </div>
         </div>
     </div>
     <div class="column columnhide">
         <div class="row">
             <div class="column center">
-                <img in:fade={{duration:1000, delay:350}} src="000_1-03.jpg" alt="Creede Guitar" width="88%">
+                <img in:fade={{duration:1000, delay:350}} src="/000_1-03.jpg" alt="Creede Guitar" width="88%">
             </div>
             <!-- <div class="column center">
                 <img in:fade={{duration:1000, delay:350}} src="000_1-16.jpg" alt="Creede Guitar" width="63%">
