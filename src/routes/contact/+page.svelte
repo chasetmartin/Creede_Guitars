@@ -27,7 +27,7 @@
         <p>or</p>
         <br>
         <p>check out our YouTube channel!</p>
-        <a href="https://www.youtube.com/@CreedeGuitars/featured" class="notpink">
+        <a href={config.youtubeUrl} class="notpink">
             <Youtube /><MousePointerClick />
         </a>
     </div>

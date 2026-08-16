@@ -7,3 +7,6 @@ export const philosophy = "What makes Creede Guitars unique? Inside the guitar, 
 export const url = dev ? 'http://localhost:5173/' : 'https://creedeguitars.com'
 export const keywords = "Creede Guitars, Creede, Colorado, Guitar, Acoustic, Luthier, Handmade, Steel String"
 export const guitars = "Click on a guitar to learn more about it."
+export const youtubeUrl = 'https://www.youtube.com/@CreedeGuitars/featured'
+export const youtubeChannelId = 'UCxu9vllCLnTLYSb5VqXcqYQ'
+export const youtubeEmbedUrl = 'https://www.youtube.com/embed/videoseries?list=UUxu9vllCLnTLYSb5VqXcqYQ'

@@ -12,7 +12,7 @@
         <a href="mailto:creedeguitars@gmail.com" class="hidephone">
             <Mail />
         </a>
-        <a href="https://www.youtube.com/@CreedeGuitars/featured" class="notpink hidephone">
+        <a href={config.youtubeUrl} class="notpink hidephone">
             <Youtube 
                 size={28}
             />
