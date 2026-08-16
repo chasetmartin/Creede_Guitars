@@ -19,7 +19,7 @@
       <p>Creede Guitars headstock in ebony</p>
       <p>Medium gold fret wire</p>
       <p>25.4” scale length</p>
-      <p>GWaverly high ratio gold tuners</p>
+      <p>Waverly high ratio gold tuners</p>
       <p>Width at nut 1 3/4”</p>
       <p>2 3/16” bridge pin spacing</p>
       <p>Osmo PolyX satin finish with no pore filler</p>

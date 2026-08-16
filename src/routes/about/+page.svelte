@@ -18,6 +18,8 @@
         <br>
         <p>{config.philosophy}</p>
         <br>
+        <p>{config.stability}</p>
+        <br>
         <div class="center">
           <img in:fade={{duration:1000, delay:350}} src="/guitar9.jpeg" alt="Creede Guitar" width="95%">
         </div>
