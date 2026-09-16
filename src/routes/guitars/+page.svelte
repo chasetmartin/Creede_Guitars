@@ -119,6 +119,21 @@
         <img in:fade={{duration:1000, delay:350}} src="/Lobito-8.webp" alt="El Lobito Desert Ironwood Parlor" width="70%" class="hover" on:click={() => goto('/guitars/lobito')}>
     </div>
 </div>
+<br>
+<br>
+<div in:fade={{duration:1000}} class="row">
+    <div class="column center guitar-card">
+        <a href="/guitars/snowfall">
+            <h3>Snowfall</h3>
+            <h6 class="lighttext">Creede Guitars Grand Symphony</h6>
+        </a>
+        <!-- svelte-ignore a11y-click-events-have-key-events -->
+        <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+        <img in:fade={{duration:1000, delay:350}} src="/Snowfall-7.webp" alt="Snowfall Grand Symphony" width="70%" class="hover" on:click={() => goto('/guitars/snowfall')}>
+    </div>
+    <div class="column center">
+    </div>
+</div>
 
   
 <style>

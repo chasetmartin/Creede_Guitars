@@ -10,7 +10,7 @@
       <h6>Can you find a Mexican Gray Wolf in this Desert Ironwood guitar featuring woods from the Sonoran Desert and the sky islands of Southern Arizona? This beauty produces a remarkable lingering resonance from the magical musical qualities of distinctive deep-rooted Sonoran wood.</h6>
       <hr>
     </div>
-    <div class="column center">
+    <div class="column center specs">
       <p>Engelmann Spruce and Desert Ironwood</p>
       <p>Desert Ironwood fretboard, bridge, headstock, and back</p>
       <p>Zebrawood binding and sides</p>
@@ -97,9 +97,11 @@
       width: 100%;
     }
 
-    p {
-      padding: 2px;
-      padding-bottom: 2vw;
+    .specs p {
+      padding: 0;
+      margin: 0;
+      padding-bottom: 1.25vw;
+      line-height: 1.45;
     }
 
     h6 {

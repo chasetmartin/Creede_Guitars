@@ -10,46 +10,48 @@
     description="About Creede Guitars: what makes Creede Guitars unique?"
 />
 
-<div in:fade={{duration:1000}} class="row">
-    <div class="column">
-        <div>
-            <h1>About</h1>
-        <p>{config.about}</p>
-        <br>
-        <p>{config.philosophy}</p>
-        <br>
-        <p>{config.stability}</p>
-        <br>
-        <div class="center">
-          <img in:fade={{duration:1000, delay:350}} src="/guitar9.jpeg" alt="Creede Guitar" width="95%">
-        </div>
-      </div>
-    </div>
-    <div class="column center">
-        <img in:fade={{duration:1000, delay:350}} src="/000_1-01.jpg" alt="Creede Guitar" width="76%">
-    </div>
-  </div>
+<div in:fade={{duration:1000}} class="about">
+    <h1>About</h1>
 
-  <style>
-    .row {
-  display: flex;
-  flex-wrap: wrap; /* Allow columns to wrap onto new line */
-}
-.center {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    <div class="text">
+        <p>{config.about}</p>
+        <p>{config.philosophy}</p>
+        <p>{config.stability}</p>
+    </div>
+
+    <div class="photos">
+        <img in:fade={{duration:1000, delay:350}} src="/Snowfall-7.webp" alt="Snowfall Guitar" class="photo">
+        <img in:fade={{duration:1000, delay:350}} src="/Lobito-4.webp" alt="El Lobito Guitar" class="photo">
+    </div>
+</div>
+
+<style>
+    .about {
+        width: 100%;
     }
 
-.column {
-  flex: 50%;
-  padding: 5px; /* Add some spacing between columns */
-  box-sizing: border-box; /* Include padding in column width */
-}
+    .text p {
+        margin: 0 0 1.25rem;
+        line-height: 1.6;
+        max-inline-size: none;
+        max-width: none;
+    }
 
-@media (max-width: 1000px) {
-        .column {
-            flex: 100%; /* Make columns take full width on small screens */
+    .photos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .photo {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    @media (max-width: 700px) {
+        .photos {
+            grid-template-columns: 1fr;
         }
     }
-  </style>
+</style>
