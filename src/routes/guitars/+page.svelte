@@ -100,23 +100,23 @@
 <br>
 <br>
 <div in:fade={{duration:1000}} class="row">
-    <div class="column center">
-            <a href="/guitars/000-DB">
-                <h3>The Amethyst Vein</h3>
-                <h6 class="lighttext">000-12 Deep Body</h6>
-            </a>
-        </div>
-    <div class="column center">
-    </div>
-</div>
-<div in:fade={{duration:1000}} class="row">
-    <div class="column center">
+    <div class="column center guitar-card">
+        <a href="/guitars/000-DB">
+            <h3>The Amethyst Vein</h3>
+            <h6 class="lighttext">000-12 Deep Body</h6>
+        </a>
         <!-- svelte-ignore a11y-click-events-have-key-events -->
         <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
         <img in:fade={{duration:1000, delay:350}} src="/amethyst-01.jpg" alt="Creede Guitar 000-12 Deep Body" width="70%" class="hover" on:click={() => goto('/guitars/000-DB')}>
     </div>
-    <div class="column center">
-        <!-- Empty right column to keep left alignment -->
+    <div class="column center guitar-card">
+        <a href="/guitars/lobito">
+            <h3>El Lobito</h3>
+            <h6 class="lighttext">Desert Ironwood Parlor</h6>
+        </a>
+        <!-- svelte-ignore a11y-click-events-have-key-events -->
+        <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+        <img in:fade={{duration:1000, delay:350}} src="/Lobito-8.webp" alt="El Lobito Desert Ironwood Parlor" width="70%" class="hover" on:click={() => goto('/guitars/lobito')}>
     </div>
 </div>
 
@@ -139,6 +139,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .guitar-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .guitar-card img {
+        margin-top: 1rem;
     }
 
     .hover:hover {
