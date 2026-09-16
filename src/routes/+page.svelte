@@ -7,7 +7,7 @@
 <Seo 
     type="WebSite"
     title="Creede Guitars"
-    description="Building custom steel string acoustic guitars at 9,000 feet in the San Juan Mountains of Colorado"
+    description="Custom-built fine guitars for discerning players, collectors, and those inspired by Creede's spirit."
     canonical="https://creedeguitars.com"
 />
 
